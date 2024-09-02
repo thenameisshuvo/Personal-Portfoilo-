@@ -1583,7 +1583,7 @@ a:hover, a:active {
   }
   
   .grid-item:nth-of-type(2) .project-img-container {
-    background-image: url('/assets/img/work/work-2.jpg'); /* Image for Project 2 */
+    background-image: url('/assets/img/work/Work-2.jpg'); /* Image for Project 2 */
   }
 
   .grid-item:nth-of-type(3) .project-img-container {
