@@ -234,7 +234,7 @@ a:hover, a:active {
 .config {
     position: fixed;
     top: 50%;
-    right: -282px;
+    right: 2px;
     padding: 5px;
     background-color: transparent;
     transition: right .3s ease;
@@ -248,10 +248,10 @@ a:hover, a:active {
 .template-config {
     position: relative;
     display: block;
-    float: left;
+    float: right;
     margin: 0 !important;
     padding: 5px;
-    background-color: #fff;
+    size:5px;
     border-radius: 12px 0 0 12px;
     box-shadow: -3px 2px 9px rgba(50, 50, 50, 0.2);
 }
@@ -264,7 +264,7 @@ a:hover, a:active {
 
 .template-config .btn-fab:hover,
 .template-config .btn-fab:focus {
-    background-color: #f2f4fa !important;
+    background-color: transparent !important;
 }
 
 .color-bar {
@@ -296,7 +296,7 @@ a:hover, a:active {
     display: inline-block;
     margin: 0 !important;
     padding: 10px 15px;
-    background-color: #fff;
+    background-color:transparent;
     box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.2);
 }
 
@@ -1679,3 +1679,172 @@ a:hover, a:active {
     opacity: 1;
     transform: scale(0);
 }
+/* Container positioning */
+.config {
+    position:hiddendot center;
+    bottom: 20px;
+    right: 0.5px;
+    z-index: 9999;
+    opacity: 100%;
+  }
+  
+  /* Button styling */
+  .btn-fab {
+    background-color: #007bff; /* Customize color as needed */
+    color: white;
+    border-radius: 50%;
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  /* Icon styling */
+  .custom-icon {
+    width: 15px; /* Adjust size as needed */
+    height: 15px; /* Adjust size as needed */
+  }
+  
+  /* Popup styling */
+  .popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    right: 20px;
+    bottom: 80px; /* Adjust as needed */
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    animation: fadeIn 0.5s ease-in-out; /* Apply fade-in animation */
+  }
+  
+  /* Popup content styling */
+  .popup-content {
+ 
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Adds shadow to make content stand out */
+    transform: translateY(20px); /* Initial position for sliding animation */
+    animation: slideUp 0.5s ease-out; /* Apply slide-up animation */
+  }
+  
+  /* Close button styling */
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .close-btn:hover {
+    color: #000;
+  }
+  
+  /* Color Selection Menu */
+  .set-menu {
+    margin-top: 20px;
+  }
+  
+  .set-menu p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .color-bar {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color-item {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .color-item.selected {
+    border: 2px solid #000; /* Highlight selected color */
+  }
+  
+  .bg-theme-red {
+    background-color: #ff4d4d;
+  }
+  
+  .bg-theme-blue {
+    background-color: #4d79ff;
+  }
+  
+  .bg-theme-green {
+    background-color: #4dff4d;
+  }
+  
+  .bg-theme-orange {
+    background-color: #ff944d;
+  }
+  
+  .bg-theme-purple {
+    background-color: #8e44ad;
+  }
+  
+  /* Keyframes for animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Optional: Animation for showing/hiding the popup */
+  .popup.show-popup {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* CSS for navbar-toggler */
+.navbar-toggler {
+    position: fixed; /* Fix the position */
+    top:26px; /* Distance from the top */
+    right: 5px; /* Distance from the right */
+    width: 30px; /* Adjust size */
+    height: 31px; /* Adjust size */
+    background-image: url("/assets/img/burger-bar.png"); /* Local image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none; /* Optional: Remove default border */
+    z-index: 1050; /* Ensure it is on top */
+    opacity:0.4; /* Initial visibility */
+    transition: opacity 0.3s; /* Smooth transition */
+   
+  }
+  
+  /* Hidden state */
+  .navbar-toggler.hidden {
+    opacity: 0; /* Hide the button */
+  }
+  

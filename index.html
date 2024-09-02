@@ -29,6 +29,8 @@
   <link rel="stylesheet" type="text/css" href="/virtual.css">
   
   <link rel="stylesheet" type="text/css" href="/topbar.virtual.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/themify-icons/0.1.2/css/themify-icons.min.css">
+
 </head>
 <body class="theme-red">
   
@@ -38,33 +40,47 @@
   </div>
   
   <!-- Setting button -->
-  <div class="config">
-    <div class="template-config">
-      <!-- Settings -->
-      <div class="d-block">
-        <button class="btn btn-fab btn-sm" id="sideel" title="Color Changer"><span class="ti-settings"></span></button>
-      </div>
-      <!--Get Code-->
-      <div class="d-block">
-        <a href="https://github.com/thenameisshuvo/Personal-Portfoilo-" class="btn btn-fab btn-sm" title="Get this template" data-toggle="tooltip" data-placement="left"><span class="ti-download"></span></a>
-      </div>
-      <!-- Help -->
-      <div class="d-block">
-        <a href="https://github.com/thenameisshuvo" class="btn btn-fab btn-sm" title="Help" data-toggle="tooltip" data-placement="left"><span class="ti-help"></span></a>
-      </div>
+<div class="config">
+  <div class="template-config">
+    <!-- Settings -->
+    <div class="d-block">
+      <button class="btn btn-fab btn-sm" id="popupTrigger" title="Color Changer">
+        <img src="/assets/img/colour (1).png" alt="Color Icon" class="custom-icon">
+      </button>
     </div>
-    <div class="set-menu">
-      <p>Select Color</p>
-      <div class="color-bar" data-toggle="selected">
-        <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
-        <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
-        <span class="color-item bg-theme-green" data-class="theme-green"></span>
-        <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
-        <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
-      </div>
-     
+    <!-- Get Code -->
+    <div class="d-block">
+      <a href="https://github.com/thenameisshuvo/Personal-Portfoilo-" class="btn btn-fab btn-sm" title="Get this template" data-toggle="tooltip" data-placement="left">
+        <img src="/assets/img/laptop.png" alt="Download Icon" class="custom-icon">
+      </a>
+    </div>
+    <!-- Help -->
+    <div class="d-block">
+      <a href="https://github.com/thenameisshuvo" class="btn btn-fab btn-sm" title="Help" data-toggle="tooltip" data-placement="left">
+        <img src="/assets/img/answer.png" alt="Help Icon" class="custom-icon">
+      </a>
     </div>
   </div>
+  
+  <!-- Popup Content -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <button class="close-btn" id="closeBtn">&times;</button>
+      <!-- Color Selection Menu -->
+      <div class="set-menu">
+        <p>Select Color</p>
+        <div class="color-bar" data-toggle="selected">
+          <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
+          <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
+          <span class="color-item bg-theme-green" data-class="theme-green"></span>
+          <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
+          <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
   
   <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg)">
     <!-- Navbar -->
@@ -72,7 +88,8 @@
       <div class="container">
         <a href="" class="navbar-brand"></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
-          <span class="ti-menu"></span>
+        </button>
+          
         </button>
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav ml-auto">
@@ -109,7 +126,6 @@
       <h1 class="fw-light mb-4">I'm <b class="fg-theme">Tanvir Rahman</b> Shuvo</h1>
       <div class="badge">Front-End Developer</div>
     </div> <!-- End Caption header -->
-    <div class="floating-button"><span class="ti-mouse"></span></div>
     
   </div>
   

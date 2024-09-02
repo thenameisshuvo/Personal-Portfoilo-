@@ -228,4 +228,59 @@ $(document).ready(function() {
 
   }
   counterInit();
+});// Get elements
+const popupTrigger = document.getElementById('popupTrigger');
+const popup = document.getElementById('popup');
+const closeBtn = document.getElementById('closeBtn');
+
+// Time in milliseconds before the popup auto-hides
+const autoHideDuration = 5000; // 5 seconds
+
+// Show popup
+popupTrigger.addEventListener('click', () => {
+  popup.style.display = 'flex';
+  popup.classList.add('show-popup'); // Add class to trigger animation
+
+  // Set timeout to auto-hide the popup
+  setTimeout(() => {
+    hidePopup();
+  }, autoHideDuration);
+});
+
+// Hide popup function
+function hidePopup() {
+  popup.classList.remove('show-popup'); // Remove class to trigger hide animation
+  setTimeout(() => {
+    popup.style.display = 'none'; // Hide the popup after animation
+  }, 500); // Match this duration with the animation duration
+}
+
+// Close popup manually
+closeBtn.addEventListener('click', () => {
+  hidePopup();
+});
+
+// Close popup when clicking outside of the content
+window.addEventListener('click', (event) => {
+  if (event.target === popup) {
+    hidePopup();
+  }
+});
+
+// JavaScript to handle scroll direction and visibility
+let lastScrollTop = 0; // Keeps track of last scroll position
+const navbarToggler = document.querySelector('.navbar-toggler'); // Select the button
+
+window.addEventListener('scroll', () => {
+  const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (currentScroll > lastScrollTop) {
+    // Scrolling down
+    navbarToggler.classList.add('hidden');
+  } else {
+    // Scrolling up
+    navbarToggler.classList.remove('hidden');
+  }
+
+  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For Mobile or negative scrolling
 });
