@@ -1912,3 +1912,43 @@ a:hover, a:active {
 </style>
 
   
+
+
+.card-goal {
+    padding: 20px;
+    border: 1px solid #e0e0e0; /* Light border for card */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* White background */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation effects */
+}
+
+.card-goal:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.icon {
+    font-size: 40px; /* Size of the icon */
+    color: #373b69; /* Theme color for icons */
+    margin-bottom: 15px; /* Space between icon and title */
+    text-align: left; /* Align icon to the left */
+}
+
+.caption {
+    text-align: left; /* Align text to the left */
+}
+
+h4.fg-theme {
+    color: #22254b; /* Theme color for headings */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.list-unstyled {
+    padding-left: 0; /* Removes left padding */
+    list-style: none; /* Removes bullets */
+    text-align: left; /* Ensure list items are left-aligned */
+}
+
+.list-unstyled li {
+    margin-bottom: 10px; /* Space between list items */
+}
