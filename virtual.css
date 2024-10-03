@@ -1880,3 +1880,35 @@ a:hover, a:active {
     transform: scale(1.1); /* Slight zoom */
   }
   
+  <style>
+  .card-tech {
+    background: #f8f9fa; /* Light background for cards */
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevent overflow */
+  }
+
+  .card-tech:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+  }
+
+  .card-tech .icon {
+    font-size: 40px; /* Larger icon size */
+    color: #373b69; /* Theme color */
+    margin: 20px 0; /* Margin around icon */
+  }
+
+  .caption {
+    padding: 20px; /* Padding inside the caption */
+    text-align: center; /* Center align text */
+  }
+
+  .fg-theme {
+    color: #373b69; /* Use theme color for headings */
+    font-weight: bold; /* Make headings bold */
+  }
+</style>
+
+  
