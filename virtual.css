@@ -1848,3 +1848,35 @@ a:hover, a:active {
     opacity: 0; /* Hide the button */
   }
   
+  /* Back to Top Button Styling */
+.btn-back_to_top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color:#EF3724; /* Custom dark background */
+    border: none;
+    border-radius: 50%; /* Circle shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Drop shadow */
+    transition: all 0.3s ease;
+    z-index: 999; /* On top of other elements */
+  }
+  
+  /* Icon inside the button */
+  .icon-back-to-top {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1); /* Make the icon white */
+  }
+  
+  /* Hover Effect */
+  .btn-back_to_top:hover {
+    background-color: #22254b; /* Slightly darker on hover */
+    transform: scale(1.1); /* Slight zoom */
+  }
+  
