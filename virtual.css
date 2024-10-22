@@ -1613,6 +1613,11 @@ a:hover, a:active {
   .grid-item:nth-of-type(6) .project-img-container {
     background-image: url('/assets/img/work/Work-6.jpg'); /* Image for Project 6*/
   }
+
+  
+  .grid-item:nth-of-type(7) .project-img-container {
+    background-image: url('/assets/img/work/Work-7.jpg'); /* Image for Project 7*/
+  }
   
   .project-img-container img {
     display: none; /* Hide the actual img tag */
