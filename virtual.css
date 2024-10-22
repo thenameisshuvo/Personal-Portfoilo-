@@ -1617,6 +1617,12 @@ a:hover, a:active {
   
   .grid-item:nth-of-type(7) .project-img-container {
     background-image: url('/assets/img/work/Work-7.jpg'); /* Image for Project 7*/
+
+  }
+
+  .grid-item:nth-of-type(8) .project-img-container {
+    background-image: url('/assets/img/work/Work-8.jpg'); /* Image for Project 8*/
+
   }
   
   .project-img-container img {
