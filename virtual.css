@@ -1075,11 +1075,6 @@ a:hover, a:active {
     margin-bottom: 0; /* Removes bottom margin */
 }
 
-/* Adds a separator before the caption text */
-.grid-item .img-caption p::before {
-    
-    margin-right: 5px; /* Space after the dash */
-}
 
 /* Responsive styles for larger screens */
 @media (min-width: 768px) {
