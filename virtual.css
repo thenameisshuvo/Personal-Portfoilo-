@@ -1071,13 +1071,13 @@ a:hover, a:active {
 
 /* Text styling for captions */
 .grid-item .img-caption p {
-    font-size: 16px; /* Increased font size for readability */
+    font-size: 8px; /* Increased font size for readability */
     margin-bottom: 0; /* Removes bottom margin */
 }
 
 /* Adds a separator before the caption text */
 .grid-item .img-caption p::before {
-    content: "\2014"; /* Adds an em dash before the text */
+    
     margin-right: 5px; /* Space after the dash */
 }
 
@@ -1629,6 +1629,13 @@ a:hover, a:active {
     background-image: url('/assets/img/work/Work-9.jpg'); /* Image for Project 9*/
 
   }
+
+  
+  .grid-item:nth-of-type(10) .project-img-container {
+    background-image: url('/assets/img/work/Work-10.jpg'); /* Image for Project 10*/
+
+  }
+  
   
   .project-img-container img {
     display: none; /* Hide the actual img tag */
