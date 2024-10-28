@@ -1643,6 +1643,11 @@ a:hover, a:active {
 
   }
   
+  .grid-item:nth-of-type(13) .project-img-container {
+    background-image: url('/assets/img/work/Work\ -13.jpg'); /* Image for Project 13*/
+
+  }
+  
   
   
   .project-img-container img {
