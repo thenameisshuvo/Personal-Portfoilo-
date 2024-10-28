@@ -1648,7 +1648,10 @@ a:hover, a:active {
 
   }
   
-  
+  .grid-item:nth-of-type(14) .project-img-container {
+    background-image: url('/assets/img/work/Work-14.jpg'); /* Image for Project 14*/
+
+  }
   
   .project-img-container img {
     display: none; /* Hide the actual img tag */
