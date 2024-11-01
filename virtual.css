@@ -1688,6 +1688,11 @@ a:hover, a:active {
     background-image: url('/assets/img/work/Work-20.jpg'); /* Image for Project 20*/
 
   }
+
+  .grid-item:nth-of-type(21) .project-img-container {
+    background-image: url('/assets/img/work/Work-21.jpg'); /* Image for Project 21*/
+
+  }
   .project-img-container img {
     display: none; /* Hide the actual img tag */
   }
