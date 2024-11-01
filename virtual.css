@@ -1706,7 +1706,10 @@ a:hover, a:active {
 
   .grid-item:nth-of-type(24) .project-img-container {
     background-image: url('/assets/img/work/Work-24.jpg'); /* Image for Project 24*/
+  }
 
+  .grid-item:nth-of-type(25) .project-img-container {
+    background-image: url('/assets/img/work/Work\ -25.jpg'); /* Image for Project 25*/
   }
   .project-img-container img {
     display: none; /* Hide the actual img tag */
