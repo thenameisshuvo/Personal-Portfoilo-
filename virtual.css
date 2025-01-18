@@ -1725,6 +1725,9 @@ a:hover, a:active {
     background-image: url('/assets/img/work/Work-28.jpg'); /* Image for Project 28*/
   }
 
+  .grid-item:nth-of-type(29) .project-img-container {
+    background-image: url('/assets/img/work/Work-29.jpg'); /* Image for Project 29*/
+  }
   .project-img-container img {
     display: none; /* Hide the actual img tag */
   }
