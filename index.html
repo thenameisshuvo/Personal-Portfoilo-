@@ -340,141 +340,155 @@
             </li>
           </ul>
         </div>
-        
-        <div class="vg-page page-tech-stack">
-          <div class="container">
-            <div class="text-center wow fadeInUp">
-              <div class="badge badge-subhead">Tech Stack</div>
-            </div>
-            <h1 class="fw-normal text-center wow fadeInUp">Technologies I Use</h1>
-            <div class="row mt-5">
-              <!-- Technology Cards -->
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="card card-tech wow fadeInUp" data-wow-delay="0.1s">
-                  <div class="icon">
-                    <i class="fa fa-html5"></i>
-                  </div>
-                  <div class="caption">
-                    <h4 class="fg-theme">HTML5</h4>
-                    <p>Expert in building semantic and accessible web content.</p>
-                  </div>
-                </div>
+        <div class="container pt-5">
+          <div class="text-center wow fadeInUp">
+            <div class="badge badge-subhead">Recent Tech News</div>
+          </div>
+          <h1 class="fw-normal text-center wow fadeInUp">Stay Updated with the Latest in Technology</h1>
+          
+          <div class="row mt-5">
+            <div class="col-md-12">
+              <div class="news-feed">
+                <!-- TechCrunch News Articles will appear here -->
               </div>
-        
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="card card-tech wow fadeInUp" data-wow-delay="0.2s">
-                  <div class="icon">
-                    <i class="fa fa-css3"></i>
-                  </div>
-                  <div class="caption">
-                    <h4 class="fg-theme">CSS3</h4>
-                    <p>Skilled in creating responsive and visually appealing designs.</p>
-                  </div>
-                </div>
+              <!-- "See More" Button -->
+              <div class="text-center mt-4">
+                <button id="see-more-btn" class="btn btn-primary">See More</button>
               </div>
-        
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="card card-tech wow fadeInUp" data-wow-delay="0.3s">
-                  <div class="icon">
-                    <i class="fa fa-js"></i>
-                  </div>
-                  <div class="caption">
-                    <h4 class="fg-theme">JavaScript</h4>
-                    <p>Proficient in writing dynamic and interactive client-side code.</p>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="card card-tech wow fadeInUp" data-wow-delay="0.4s">
-                  <div class="icon">
-                    <i class="fa fa-react"></i>
-                  </div>
-                  <div class="caption">
-                    <h4 class="fg-theme">React.js</h4>
-                    <p>Experienced in building component-based user interfaces with React.</p>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="card card-tech wow fadeInUp" data-wow-delay="0.5s">
-                  <div class="icon">
-                    <i class="fa fa-node"></i>
-                  </div>
-                  <div class="caption">
-                    <h4 class="fg-theme">Node.js</h4>
-                    <p>Skilled in server-side programming and building scalable applications.</p>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="card card-tech wow fadeInUp" data-wow-delay="0.6s">
-                  <div class="icon">
-                    <i class="fa fa-express"></i>
-                  </div>
-                  <div class="caption">
-                    <h4 class="fg-theme">Express.js</h4>
-                    <p>Proficient in building RESTful APIs and handling server-side logic.</p>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="card card-tech wow fadeInUp" data-wow-delay="0.7s">
-                  <div class="icon">
-                    <i class="fa fa-database"></i>
-                  </div>
-                  <div class="caption">
-                    <h4 class="fg-theme">MongoDB</h4>
-                    <p>Experienced in working with NoSQL databases for flexible data storage.</p>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="card card-tech wow fadeInUp" data-wow-delay="0.8s">
-                  <div class="icon">
-                    <i class="fa fa-github"></i>
-                  </div>
-                  <div class="caption">
-                    <h4 class="fg-theme">GitHub</h4>
-                    <p>Proficient in version control and managing code repositories with GitHub.</p>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="card card-tech wow fadeInUp" data-wow-delay="0.9s">
-                  <div class="icon">
-                    <i class="fa fa-code"></i>
-                  </div>
-                  <div class="caption">
-                    <h4 class="fg-theme">Visual Studio Code</h4>
-                    <p>Skilled in using VS Code for efficient code editing and development.</p>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="card card-tech wow fadeInUp" data-wow-delay="1s">
-                  <div class="icon">
-                    <i class="fa fa-comment-alt"></i>
-                  </div>
-                  <div class="caption">
-                    <h4 class="fg-theme">ChatGPT</h4>
-                    <p>Utilizes ChatGPT for AI-powered assistance and enhancing productivity.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Add more technologies as needed -->
             </div>
           </div>
         </div>
         
+        <!-- Styles for Tech News Feed -->
+        <style>
+          .news-feed {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            max-height: 500px; /* Set max height to avoid overflowing */
+            overflow-y: auto;
+          }
         
-  
+          .news-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #ddd;
+            transition: all 0.3s ease-in-out;
+          }
+        
+          .news-item:last-child {
+            border-bottom: none;
+          }
+        
+          .news-item h3 {
+            font-size: 20px;
+            color: #007bff;
+            margin: 0;
+            font-weight: bold;
+          }
+        
+          .news-item p {
+            font-size: 14px;
+            color: #555;
+          }
+        
+          .news-item a {
+            color: #007bff;
+            text-decoration: none;
+          }
+        
+          .news-item a:hover {
+            text-decoration: underline;
+          }
+        
+          #see-more-btn {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+        
+          #see-more-btn:hover {
+            background-color: #0056b3;
+          }
+        
+          #see-more-btn:disabled {
+            background-color: #d6d6d6;
+            cursor: not-allowed;
+          }
+        </style>
+        
+        <!-- JavaScript to Fetch TechCrunch RSS Feed -->
+        <script>
+          // RSS to JSON API URL for TechCrunch Feed
+          const feedUrl = 'https://api.rss2json.com/v1/api.json?rss_url=https://techcrunch.com/feed/';
+          
+          const newsContainer = document.querySelector('.news-feed');
+          const seeMoreButton = document.getElementById('see-more-btn');
+        
+          let newsItems = []; // Store fetched news items
+          let displayedItems = 0; // Counter for displaying items
+        
+          // Function to fetch and display TechCrunch news
+          async function fetchTechCrunchNews() {
+            try {
+              const response = await fetch(feedUrl);
+              const data = await response.json();
+        
+              // Store fetched items
+              if (data.items && data.items.length > 0) {
+                newsItems = data.items;
+                displayNews();
+              } else {
+                newsContainer.innerHTML = '<p>No tech news available at the moment.</p>';
+              }
+            } catch (error) {
+              console.error('Error fetching TechCrunch news:', error);
+              newsContainer.innerHTML = '<p>Failed to load news. Please try again later.</p>';
+            }
+          }
+        
+          // Function to display news items
+          function displayNews() {
+            // Display only 3 items initially
+            let itemsToDisplay = newsItems.slice(displayedItems, displayedItems + 3);
+            
+            itemsToDisplay.forEach(article => {
+              const newsItem = document.createElement('div');
+              newsItem.classList.add('news-item');
+        
+              newsItem.innerHTML = `
+                <h3><a href="${article.link}" target="_blank">${article.title}</a></h3>
+                <p>${article.description ? article.description : 'No description available.'}</p>
+                <p><strong>Published on:</strong> ${new Date(article.pubDate).toLocaleDateString()}</p>
+              `;
+        
+              // Append each news item to the container
+              newsContainer.appendChild(newsItem);
+            });
+        
+            // Update displayed items count
+            displayedItems += 3;
+        
+            // Disable the "See More" button if all items are shown
+            if (displayedItems >= newsItems.length) {
+              seeMoreButton.disabled = true;
+              seeMoreButton.innerText = 'No More Articles';
+            }
+          }
+        
+          // Event listener for the "See More" button
+          seeMoreButton.addEventListener('click', displayNews);
+        
+          // Fetch and display the news
+          fetchTechCrunchNews();
+        </script>
+        
         <div class="vg-page page-future-goals">
           <div class="container">
             <div class="text-center wow fadeInUp">
