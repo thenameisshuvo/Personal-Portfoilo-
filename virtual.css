@@ -1585,162 +1585,162 @@ a:hover, a:active {
   }
   
   .grid-item:nth-of-type(1) .project-img-container {
-    background-image: url('/assets/img/work/Work-1.jpg'); /* Image for Project 1 */
+    background-image: url('./assets/img/work/Work-1.jpg'); /* Image for Project 1 */
   }
   
   .grid-item:nth-of-type(2) .project-img-container {
-    background-image: url('/assets/img/work/Work-2.jpg'); /* Image for Project 2 */
+    background-image: url('./assets/img/work/Work-2.jpg'); /* Image for Project 2 */
   }
 
   .grid-item:nth-of-type(3) .project-img-container {
-    background-image: url('/assets/img/work/Work-3.jpg'); /* Image for Project 3 */
+    background-image: url('./assets/img/work/Work-3.jpg'); /* Image for Project 3 */
   }
 
   
   .grid-item:nth-of-type(4) .project-img-container {
-    background-image: url('/assets/img/work/Work-4.jpg'); /* Image for Project 4*/
+    background-image: url('./assets/img/work/Work-4.jpg'); /* Image for Project 4*/
   }
 
    
   .grid-item:nth-of-type(5) .project-img-container {
-    background-image: url('/assets/img/work/Work-5.jpg'); /* Image for Project 5*/
+    background-image: url('./assets/img/work/Work-5.jpg'); /* Image for Project 5*/
   }
   
   .grid-item:nth-of-type(6) .project-img-container {
-    background-image: url('/assets/img/work/Work-6.jpg'); /* Image for Project 6*/
+    background-image: url('./assets/img/work/Work-6.jpg'); /* Image for Project 6*/
   }
 
   
   .grid-item:nth-of-type(7) .project-img-container {
-    background-image: url('/assets/img/work/Work-7.jpg'); /* Image for Project 7*/
+    background-image: url('./assets/img/work/Work-7.jpg'); /* Image for Project 7*/
 
   }
 
   .grid-item:nth-of-type(8) .project-img-container {
-    background-image: url('/assets/img/work/Work-8.jpg'); /* Image for Project 8*/
+    background-image: url('./assets/img/work/Work-8.jpg'); /* Image for Project 8*/
 
   }
 
   .grid-item:nth-of-type(9) .project-img-container {
-    background-image: url('/assets/img/work/Work-9.jpg'); /* Image for Project 9*/
+    background-image: url('./assets/img/work/Work-9.jpg'); /* Image for Project 9*/
 
   }
 
   
   .grid-item:nth-of-type(10) .project-img-container {
-    background-image: url('/assets/img/work/Work-10.jpg'); /* Image for Project 10*/
+    background-image: url('./assets/img/work/Work-10.jpg'); /* Image for Project 10*/
 
   }
   
    
   .grid-item:nth-of-type(11) .project-img-container {
-    background-image: url('/assets/img/work/Work-11.jpg'); /* Image for Project 11*/
+    background-image: url('./assets/img/work/Work-11.jpg'); /* Image for Project 11*/
 
   }
 
    
   .grid-item:nth-of-type(12) .project-img-container {
-    background-image: url('/assets/img/work/Work-12.jpg'); /* Image for Project 12*/
+    background-image: url('./assets/img/work/Work-12.jpg'); /* Image for Project 12*/
 
   }
   
   .grid-item:nth-of-type(13) .project-img-container {
-    background-image: url('/assets/img/work/Work\ -13.jpg'); /* Image for Project 13*/
+    background-image: url('./assets/img/work/Work\ -13.jpg'); /* Image for Project 13*/
 
   }
   
   .grid-item:nth-of-type(14) .project-img-container {
-    background-image: url('/assets/img/work/Work-14.jpg'); /* Image for Project 14*/
+    background-image: url('./assets/img/work/Work-14.jpg'); /* Image for Project 14*/
 
   }
   
   
   .grid-item:nth-of-type(15) .project-img-container {
-    background-image: url('/assets/img/work/Work-15.jpg'); /* Image for Project 15*/
+    background-image: url('./assets/img/work/Work-15.jpg'); /* Image for Project 15*/
 
   }
   
   .grid-item:nth-of-type(16) .project-img-container {
-    background-image: url('/assets/img/work/Work-16.jpg'); /* Image for Project 16*/
+    background-image: url('./assets/img/work/Work-16.jpg'); /* Image for Project 16*/
 
   }
 
   
   .grid-item:nth-of-type(17) .project-img-container {
-    background-image: url('/assets/img/work/Work-17.jpg'); /* Image for Project 17*/
+    background-image: url('./assets/img/work/Work-17.jpg'); /* Image for Project 17*/
 
 
   }
 
 
   .grid-item:nth-of-type(18) .project-img-container {
-    background-image: url('/assets/img/work/Work-18.jpg'); /* Image for Project 18*/
+    background-image: url('./assets/img/work/Work-18.jpg'); /* Image for Project 18*/
 
   }
 
 
   
   .grid-item:nth-of-type(19) .project-img-container {
-    background-image: url('/assets/img/work/Work-19.jpg'); /* Image for Project 19*/
+    background-image: url('./assets/img/work/Work-19.jpg'); /* Image for Project 19*/
 
   }
 
   .grid-item:nth-of-type(20) .project-img-container {
-    background-image: url('/assets/img/work/Work-20.jpg'); /* Image for Project 20*/
+    background-image: url('./assets/img/work/Work-20.jpg'); /* Image for Project 20*/
 
   }
 
   .grid-item:nth-of-type(21) .project-img-container {
-    background-image: url('/assets/img/work/Work-21.jpg'); /* Image for Project 21*/
+    background-image: url('./assets/img/work/Work-21.jpg'); /* Image for Project 21*/
 
   }
 
   .grid-item:nth-of-type(22) .project-img-container {
-    background-image: url('/assets/img/work/Work-22.jpg'); /* Image for Project 22*/
+    background-image: url('./assets/img/work/Work-22.jpg'); /* Image for Project 22*/
 
   }
 
   .grid-item:nth-of-type(23) .project-img-container {
-    background-image: url('/assets/img/work/Work-23.jpg'); /* Image for Project 23*/
+    background-image: url('./assets/img/work/Work-23.jpg'); /* Image for Project 23*/
 
   }
 
   .grid-item:nth-of-type(24) .project-img-container {
-    background-image: url('/assets/img/work/Work-24.jpg'); /* Image for Project 24*/
+    background-image: url('./assets/img/work/Work-24.jpg'); /* Image for Project 24*/
   }
 
   .grid-item:nth-of-type(25) .project-img-container {
-    background-image: url('/assets/img/work/Work\ -25.jpg'); /* Image for Project 25*/
+    background-image: url('./assets/img/work/Work\ -25.jpg'); /* Image for Project 25*/
   }
 
   .grid-item:nth-of-type(26) .project-img-container {
-    background-image: url('/assets/img/work/Work-26.jpg'); /* Image for Project 26*/
+    background-image: url('./assets/img/work/Work-26.jpg'); /* Image for Project 26*/
   }
 
   .grid-item:nth-of-type(27) .project-img-container {
-    background-image: url('/assets/img/work/Work-27.jpg'); /* Image for Project 27*/
+    background-image: url('./assets/img/work/Work-27.jpg'); /* Image for Project 27*/
   }
 
   .grid-item:nth-of-type(28) .project-img-container {
-    background-image: url('/assets/img/work/Work-28.jpg'); /* Image for Project 28*/
+    background-image: url('./assets/img/work/Work-28.jpg'); /* Image for Project 28*/
   }
 
   .grid-item:nth-of-type(29) .project-img-container {
-    background-image: url('/assets/img/work/Work-29.jpg'); /* Image for Project 29*/
+    background-image: url('./assets/img/work/Work-29.jpg'); /* Image for Project 29*/
   }
 
   .grid-item:nth-of-type(30) .project-img-container {
-    background-image: url('/assets/img/work/Work-30.jpg'); /* Image for Project 30*/
+    background-image: url('./assets/img/work/Work-30.jpg'); /* Image for Project 30*/
   }
   
   .grid-item:nth-of-type(31) .project-img-container {
-    background-image: url('/assets/img/work/Work-31.jpg'); /* Image for Project 31*/
+    background-image: url('./assets/img/work/Work-31.jpg'); /* Image for Project 31*/
   }
   .grid-item:nth-of-type(32) .project-img-container {
-    background-image: url('/assets/img/work/Work-32.jpg'); /* Image for Project 32*/
+    background-image: url('./assets/img/work/Work-32.jpg'); /* Image for Project 32*/
   }
   .grid-item:nth-of-type(33) .project-img-container {
-    background-image: url('/assets/img/work/Work-33.jpg'); /* Image for Project 33*/
+    background-image: url('./assets/img/work/Work-33.jpg'); /* Image for Project 33*/
   }
 
   .project-img-container img {
@@ -1980,7 +1980,7 @@ a:hover, a:active {
     right: 5px; /* Distance from the right */
     width: 30px; /* Adjust size */
     height: 31px; /* Adjust size */
-    background-image: url("/assets/img/burger-bar.png"); /* Local image path */
+    background-image: url("./assets/img/burger-bar.png"); /* Local image path */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
