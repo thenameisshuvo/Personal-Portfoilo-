@@ -1743,6 +1743,11 @@ a:hover, a:active {
     background-image: url('./assets/img/work/Work-33.jpg'); /* Image for Project 33*/
   }
 
+    .grid-item:nth-of-type(34) .project-img-container {
+    background-image: url('./assets/img/work/Work-34.jpg'); /* Image for Project 34*/
+  }
+
+
   .project-img-container img {
     display: none; /* Hide the actual img tag */
   }
