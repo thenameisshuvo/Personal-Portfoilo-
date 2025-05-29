@@ -1986,10 +1986,10 @@ a:hover, a:active {
   /* CSS for navbar-toggler */
 .navbar-toggler {
     position: fixed; /* Fix the position */
-    top:26px; /* Distance from the top */
+    top:0.1px; /* Distance from the top */
     right: 5px; /* Distance from the right */
     width: 30px; /* Adjust size */
-    height: 31px; /* Adjust size */
+    height: 23px; /* Adjust size */
     background-image: url("./assets/img/burger-bar.png"); /* Local image path */
     background-size: cover;
     background-repeat: no-repeat;
