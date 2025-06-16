@@ -2118,5 +2118,34 @@ h4.fg-theme {
 .list-unstyled li {
     margin-bottom: 10px; /* Space between list items */
 }
+.certificate-card {
+    max-width: 320px;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; /* shows pointer on hover */
+  }
+  
+  .certificate-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10; /* stay on top if overlapping */
+  }
+  
 
-
+  .certificate-card {
+    max-width: 600px;  /* Increased width */
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    height: auto; /* Let height adjust based on content */
+  }
+  
+  .certificate-card img.card-img-top {
+    height:auto;   /* Reduce image height */
+    object-fit: cover; /* Crop image nicely */
+  }
+  
+  .certificate-card .card-body {
+    padding: 15px 20px; /* Slightly reduce padding to reduce overall height */
+  }
+  
