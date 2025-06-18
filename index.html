@@ -156,14 +156,17 @@
 .badge::after {
   content: '';
   position: absolute;
-  height: 100%;
-  width: 2px;
+  height: 30%;     /* ⬅️ Shorter height */
+  width: 1px;      /* ⬅️ Thin width */
   background: white;
-  right: 14px;
-  top: 0;
+  right: 10px;     /* ⬅️ Slightly closer to text */
+  top: 35%;        /* ⬅️ Vertically centered based on new height */
   animation: blinkCursor 0.7s step-end infinite;
   opacity: 0;
 }
+
+
+
 
 /* Show cursor only when typing */
 .typing::after {
