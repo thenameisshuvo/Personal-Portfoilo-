@@ -87,16 +87,7 @@
 </div>
 
   
-  <div class="vg-page page-home" id="home" style="position: relative; min-height: 100vh; overflow: hidden;">
-    <!-- Background Video -->
-    <video autoplay muted loop playsinline style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
-      <source src="/assets/img/Coding-shuvo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <!-- Optional: Overlay for better contrast -->
-    <div style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.35); z-index: 1;"></div>
-    <!-- Content goes here, ensure it is above the video -->
-    <div style="position: relative; z-index: 2;"></div>
+  <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg)">
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
@@ -138,11 +129,100 @@
       </div>
     </div> <!-- End Navbar -->
     <!-- Caption header -->
-    <div class="caption-header text-center wow zoomInDown">
-      <h5 class="fw-normal">Welcome</h5>
-      <h1 class="fw-light mb-4">I'm <b class="fg-theme">Tanvir Rahman</b> Shuvo</h1>
-      <div class="badge">Front-End Developer</div>
-    </div> <!-- End Caption header -->
+<!-- Hero Caption Section -->
+<div class="caption-header text-center wow zoomInDown">
+  <h5 class="fw-normal">Transforming Ideas into Pixel-Perfect Experiences</h5>
+  <h1 class="fw-light mb-4">I'm <b class="fg-theme">Tanvir Rahman</b> Shuvo</h1>
+  <div class="badge" id="badge-rotator"></div>
+</div>
+
+<!-- Styles -->
+<style>
+.badge {
+  display: inline-block;
+  background-color: #831010;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Cursor as pseudo element */
+.badge::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background: white;
+  right: 14px;
+  top: 0;
+  animation: blinkCursor 0.7s step-end infinite;
+  opacity: 0;
+}
+
+/* Show cursor only when typing */
+.typing::after {
+  opacity: 1;
+}
+
+@keyframes blinkCursor {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+</style>
+
+<!-- Script -->
+<script>
+  const roles = [
+    "Full-Stack MERN Developer",
+  "Node.js & API Integrator",
+  "Responsive UI Craftsman"
+  ];
+
+  const badge = document.getElementById("badge-rotator");
+  let roleIndex = 0;
+  let charIndex = 0;
+  let typingDelay = 100;
+  let erasingDelay = 50;
+  let nextRoleDelay = 2000; // delay before typing next word
+
+  function typeRole() {
+    if (charIndex < roles[roleIndex].length) {
+      badge.classList.add("typing");
+      badge.textContent = roles[roleIndex].substring(0, charIndex + 1);
+      charIndex++;
+      setTimeout(typeRole, typingDelay);
+    } else {
+      badge.classList.remove("typing");
+      setTimeout(eraseRole, nextRoleDelay);
+    }
+  }
+
+  function eraseRole() {
+    if (charIndex > 0) {
+      badge.classList.add("typing");
+      badge.textContent = roles[roleIndex].substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(eraseRole, erasingDelay);
+    } else {
+      badge.classList.remove("typing");
+      roleIndex = (roleIndex + 1) % roles.length;
+      setTimeout(typeRole, typingDelay);
+    }
+  }
+
+  // Start animation on load
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(typeRole, 1000);
+  });
+</script>
+
     
   </div>
   
@@ -156,7 +236,7 @@
         </div>
         <div class="col-lg-6 offset-lg-1 wow fadeInRight">
           <h1 class="fw-light">Tanvir Rahman Shuvo</h1>
-          <h5 class="fg-theme mb-3">Front-End Developer</h5>
+          <h5 class="fg-theme mb-3">MERN Developer</h5>
           <p class="text-muted">My expertise lies in integrating technical expertise with creative design, creating digital solutions that are both practical and immersive. I take pride in my ability to turn complex problems into elegant, user-friendly solutions. Whether I'm working on a dynamic web application, an interactive game, or a sleek, modern website, my goal is to deliver exceptional results that exceed expectations.
 
             Driven by curiosity and a commitment to continuous learning, I stay up-to-date with the latest industry trends and technologies. This enables me to approach each project with a fresh perspective and innovative mindset. I thrive in collaborative environments where ideas are shared and creativity flourishes, and I'm always eager to tackle new challenges and contribute to groundbreaking projects.
