@@ -87,7 +87,16 @@
 </div>
 
   
-  <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg)">
+  <div class="vg-page page-home" id="home" style="position: relative; min-height: 100vh; overflow: hidden;">
+    <!-- Background Video -->
+    <video autoplay muted loop playsinline style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+      <source src="/assets/img/Coding-shuvo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <!-- Optional: Overlay for better contrast -->
+    <div style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.35); z-index: 1;"></div>
+    <!-- Content goes here, ensure it is above the video -->
+    <div style="position: relative; z-index: 2;"></div>
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
