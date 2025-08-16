@@ -1,3 +1,1 @@
-# Personal Portfoilo
-
-My personal portfolio project with cool interface which is build with html , css , js & bootstrap css
+This is my personal developer portfolio built with HTML, CSS, JavaScript, and Bootstrap. It showcases my skills, education, goals, and a wide range of projects with both live demos and source code links. The site is fully responsive and optimized for different devices, providing recruiters and visitors with an easy way to explore my work. In addition to the projects section, the portfolio includes testimonials, certifications, and contact options. The design is clean and lightweight, ensuring fast performance since it is a static site without any complex frameworks. It is deployed on Vercel for smooth hosting and continuous delivery.
